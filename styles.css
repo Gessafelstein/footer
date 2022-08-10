@@ -1,13 +1,88 @@
+/* full header */
+
+.header {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #24262b;
+}
+
+
+.header-container {
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border-radius: 20px;
+}
+
+.search-box {
+    position: relative;
+    margin-right: 500px;
+}
+
+input {
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+
+.search {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.menu-list {
+    display: inline-block;
+    padding: 15px 10px;
+    margin-top: 15px;
+}
+
+.menu-links {
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.menu-links:hover {
+    color: #334FFF;
+
+}
+
+.button {
+    color: #ffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255, 0.2);
+}
+
+/* full footer */
+
+
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #24262b;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 
-.container {
+.footer-container {
     margin: auto;
     max-width: 1170px;
 }
@@ -16,6 +91,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 70px;
 }
 
 
@@ -54,7 +130,7 @@
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
-    font-weight: 300px;
+    font-weight: 300;
     color: #ffffff;
     text-decoration: none;
     color: #bbbbbb;
@@ -86,4 +162,8 @@
 .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
+}
+
+.social-links {
+    margin-top: 15px;
 }
